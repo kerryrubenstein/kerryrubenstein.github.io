@@ -1,0 +1,31 @@
+body {
+	text-align: center;
+	background: url(../images/IMG_2175.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: helvetica, sans-serif;
+	color: #FFF;
+}
+
+
+h1 {
+	font-size: 36px;
+	letter-spacing: 3px;
+	text-transform: lowercase;
+}
+
+h2 {
+	text-transform: lowercase;
+}
+
+
+a {
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+#portfolio-name {
+	margin-top: 400px;
+
+}
