@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400i|Josefin+Sans:700');
+
+body {
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Josefin Sans', helvetica, sans-serif;
+	color: #000;
+	margin: 0;
+	line-height: 1.5em;
+}
+
+nav {
+	background-color: #000;
+	font-family: 'Josefin Sans', helvetica, sans-serif;
+	padding: 30px;
+}
+
+nav a {
+	color: #fff;
+	margin-right:30px;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 3px;
+
+}
+
+
+#portfolio-name {
+	font-family: 'Josefin Sans', helvetica, sans-serif;
+	padding-top:50px;
+	text-transform: uppercase;
+}
+
+#slogan {
+	letter-spacing: 2px;
+	line-height: 0em;
+}
+
+
+section {
+	font-family: 'Josefin Sans', helvetica, sans-serif;
+	margin: 100px;
+}
+
+img {
+width: 100%;
+}
+
+h1 {
+	font-size:2em;
+	letter-spacing: 4px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size:1em;
+	font-family: 'EB Garamond', 'Garamond', serif;
+
+}
+
+
+a {
+	color: #fff;
+	text-decoration: none;
+
+}
+
+p {
+	font-family: 'EB Garamond', 'Garamond', serif;
+	letter-spacing: .5px;
+}
+
+footer{
+	background-color: #000;
+	color: #fff;
+	padding:10px;
+	font-family: 'Josefin Sans', helvetica, sans-serif;
+}
+
+
