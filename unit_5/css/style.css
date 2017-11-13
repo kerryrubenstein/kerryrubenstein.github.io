@@ -12,8 +12,9 @@ body {
 
 nav {
 	background: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
 	font-family: 'Josefin Sans', helvetica, sans-serif;
-	padding: 30px;
 }
 
 nav a {
@@ -29,6 +30,8 @@ section {
 	font-family: 'Josefin Sans', helvetica, sans-serif;
 	margin: 100px;
 	background: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
 }
 
 img {
@@ -37,6 +40,8 @@ width: 100%;
 
 header {
 	background: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
 }
 
 h1 {
@@ -70,14 +75,16 @@ p {
 aside {
 	color: #fff;
 	background-color: #FFC675;
-	padding: 20px;
 	text-align: left;
+	border: 1px black solid;
+    padding: 20px;
 }
 
 footer{
 	background-color: #FF957E;
 	color: #fff;
-	padding:10px;
+	border: 1px black solid;
+    padding: 20px;
 	font-family: 'Josefin Sans', helvetica, sans-serif;
 }
 
