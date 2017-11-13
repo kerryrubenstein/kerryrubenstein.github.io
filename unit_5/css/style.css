@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400i|Josefin+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+body {
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Josefin Sans', helvetica, sans-serif;
+	color: #000;
+	margin: 0;
+	line-height: 1.5em;
+}
+
+nav {
+	background: #E8C66A;
+	font-family: 'Josefin Sans', helvetica, sans-serif;
+	padding: 30px;
+}
+
+nav a {
+	color: #fff;
+	margin-right:30px;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 3px;
+}
+
+
+section {
+	font-family: 'Josefin Sans', helvetica, sans-serif;
+	margin: 100px;
+	background: #FFE2B8;
+}
+
+img {
+width: 100%;
+}
+
+header {
+	background: #FFED74;
+}
+
+h1 {
+	font-size:2em;
+	letter-spacing: 4px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size:1em;
+	font-family: 'EB Garamond', 'Garamond', serif;
+}
+
+h3 {
+	letter-spacing:2px;
+}
+
+
+a {
+	color: #fff;
+	border-bottom: .5px solid #fff;
+	padding-bottom: 1.5px;
+	text-decoration: none;
+}
+
+p {
+	font-family: 'EB Garamond', 'Garamond', serif;
+	letter-spacing: .5px;
+}
+
+aside {
+	color: #fff;
+	background-color: #FFC675;
+	padding: 20px;
+	text-align: left;
+}
+
+footer{
+	background-color: #FF957E;
+	color: #fff;
+	padding:10px;
+	font-family: 'Josefin Sans', helvetica, sans-serif;
+}
+
+li {
+	font-size: .75em;
+	letter-spacing: 1px;
+}
+
+ul {
+	list-style: none;
+}
+
+#wrapper {
+	width: auto;
+}
+
+#portfolio-name {
+	font-family: 'Josefin Sans', helvetica, sans-serif;
+	padding-top:50px;
+	text-transform: uppercase;
+}
+
+#slogan {
+	letter-spacing: 2px;
+	line-height: 0em;
+}
+
+#bio-pic {
+ 	float: left;
+ 	width: 40%;
+	margin: 20px 40px 20px 20px;
+}
+
