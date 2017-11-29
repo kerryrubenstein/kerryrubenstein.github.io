@@ -17,7 +17,8 @@ body {
 }
 
 nav {
-	background: #000;
+	background: #E8C66A;
+	border: 1px black solid;
 	padding: 20px 20px 30px 20px;	
 	font-family: 'Josefin Sans', helvetica, sans-serif;
 }
@@ -46,7 +47,8 @@ nav a:active {
 
 section {
 	font-family: 'Josefin Sans', helvetica, sans-serif;
-	background: #FFF;
+	background: #FFE2B8;
+	border: 1px black solid;
     padding: 20px;
 }
 
@@ -55,7 +57,8 @@ width: 100%;
 }
 
 header {
-	background: #FFF;
+	background: #FFED74;
+	border: 1px black solid;
     padding: 20px;
 }
 
@@ -85,22 +88,19 @@ a {
 p {
 	font-family: 'EB Garamond', 'Garamond', serif;
 	letter-spacing: .5px;
-
 }
 
-aside {
-	color: #fff;
-	background-color: #000;
-	text-align: left;
-    padding: 30px;
-}
+
 
 footer{
-	background-color: #000;
+	background-color: #FF957E;
 	color: #fff;
 	border: 1px black solid;
     padding: 30px;
 	font-family: 'Josefin Sans', helvetica, sans-serif;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 li {
@@ -112,20 +112,60 @@ ul {
 	list-style: none;
 }
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:" ";
+	display: block;
+	clear:both;
 }
-.covers {
+
+#covers{
 	float:left;
 }
 
 .thumbnails {
 	width: 250px;
+	margin:auto;
+
+}
+
+/*/
+#two_column {
+	color: #fff;
+	background-color: #000;
+	text-align: left;
+    padding: 30px;
+}
+/*/
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
 }
 
 
@@ -143,7 +183,7 @@ ul {
 
 #bio-pic {
  	float: left;
- 	width: 30%;
+ 	width: 80%;
 	margin: 20px 40px 20px 20px;
 }
 
