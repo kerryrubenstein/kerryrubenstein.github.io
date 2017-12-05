@@ -63,7 +63,7 @@ header {
 }
 
 h1 {
-	font-size:1.75em;
+	font-size: 1.75em;
 	letter-spacing: 4px;
 	font-weight: bold;
 	line-height: 1.25em;
@@ -110,6 +110,10 @@ label {
 	display: none;
 }
 
+hr {
+	margin-bottom: .2em;
+}
+
 footer {
 	background-color: #000;
 	color: #fff;
@@ -118,11 +122,13 @@ footer {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	box-shadow: 0px 500px 0px 500px #000;
 }
 
 footer a {
 	color: #fff;
 	font-family: 'Josefin Sans', helvetica, sans-serif;
+	line-height: 0em;
 }
 
 .clearfix:after {
@@ -138,6 +144,18 @@ footer a {
 	float:left;
 }
 
+.headline {
+	font-family: 'Josefin Sans', helvetica, sans-serif;
+	padding: 1em 0 0 0;
+	text-transform: uppercase;
+}
+
+.slogan {
+	letter-spacing: .15em;
+	line-height: 0em;
+	line-height: 1.25em;
+}
+
 .thumbnails {
 	width: 22%;
 	margin: auto;
@@ -150,6 +168,7 @@ footer a {
 }
 
 .left-footer {
+	padding-top:.2em;
 	float: left;
 }
 
@@ -164,41 +183,26 @@ footer a {
 }
 
 #two_column {
-    padding: 1.5em;
+    margin: .5em auto 2em auto;
     color: #000;
     background-color: #fff;
+    max-width: 1000px;
+    width: 80%;
 }
 
 #left {
-    padding: .75em;
     float: left;
     width: 40%;
 }
 
 #right {
-    padding: 1.5em;
     float: right;   
-    width: 60%;
-    text-align:left;
-}
-
-
-#portfolio-name {
-	font-family: 'Josefin Sans', helvetica, sans-serif;
-	padding: 1em 0 0 0;
-	text-transform: uppercase;
-}
-
-#slogan {
-	letter-spacing: .15em;
-	line-height: 0em;
-	line-height: 1.25em;
+    width: 55%;
+    text-align: left;
 }
 
 #bio-pic {
- 	float: left;
- 	width: 70%;
-	margin: 1.5em;
+ 	width: 100%;
 }
 
 #toggle {
@@ -214,6 +218,15 @@ footer a {
 @media only screen and (max-width: 600px) {
 	.thumbnails {
 		width: 45%;
+	}
+	#two_column {
+    margin: .5em auto 3em auto;
+	}
+	#left, #right {
+		float: none;
+		margin: auto;
+		width: 100%;
+		padding-bottom: 1em;
 	}
 }
 
@@ -263,4 +276,22 @@ footer a {
 	 	width: 100%;
 		margin: 1.5em;
 	}
+
+	hr {
+		display: none;
+	}
+
+	.left-footer, .right-footer {
+		float: none;
+	}
+
+	.left-footer {
+		font-size: 3em;
+	}
+	
+	.right-footer h4 {
+		margin: 2em;
+		padding-top: 2em;
+		border-top: .15em solid #fff;
+		}
 }
