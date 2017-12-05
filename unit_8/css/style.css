@@ -113,6 +113,8 @@ label {
 	color: #fff;
 	margin: 2em;
 	letter-spacing: .2em;
+	padding-bottom: .25em;
+	border-bottom: .15em solid #fff;
 	font-size: .75em;
 	display: none;
 }
@@ -196,8 +198,12 @@ label {
 }
 
 @media only screen and (max-width: 450px) {
+	body {
+		font-size: 16px;
+	}
+
 	#lander {
-		padding: .25em;
+		padding: .15em;
 	}
 
 	nav {
@@ -212,6 +218,12 @@ label {
 
 	label {
 		display: block;
+		border-bottom: none;
+		margin: 1em;
+	}
+
+	#portfolio-name {
+		padding: 0em;
 	}
 
 	#toggle:checked + nav {
@@ -230,5 +242,5 @@ label {
 	 	float: left;
 	 	width: 100%;
 		margin: 1.5em;
-}
+	}
 }
