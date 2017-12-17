@@ -51,7 +51,7 @@ section {
 	background: #FFF;
     padding: 0;
     max-width: 1130px;
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
 }
 
 img {
@@ -158,6 +158,11 @@ footer a {
 
 .thumbnails {
 	width: 22%;
+	margin: auto;
+}
+
+.others {
+	width: 29%;
 	margin: auto;
 }
 
